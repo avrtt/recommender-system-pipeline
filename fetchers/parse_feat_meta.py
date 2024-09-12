@@ -1,4 +1,4 @@
-from data_exchange_center.constants import *
+from fetchers.constants import *
 
 
 def get_feature_def(feat_meta):

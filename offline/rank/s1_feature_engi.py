@@ -3,8 +3,8 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import pickle
 import pandas as pd
-from data_exchange_center.constants import *
-from data_exchange_center.paths import RAW_USER_PATH, RAW_ITEM_PATH, OFFLINE_IMP_PATH, IMP_TERM_PATH, \
+from fetchers.constants import *
+from fetchers.paths import RAW_USER_PATH, RAW_ITEM_PATH, OFFLINE_IMP_PATH, IMP_TERM_PATH, \
     USER_TERM_PATH, ITEM_TERM_PATH, USER_ENTITY_PATH, ITEM_ENTITY_PATH, FEAT_META_PATH, TRAIN_DATA_PATH, TEST_DATA_PATH
 
 

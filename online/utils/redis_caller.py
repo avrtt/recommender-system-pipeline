@@ -1,6 +1,6 @@
 from redis import Redis, ConnectionPool
 import logging
-from data_exchange_center.constants import *
+from fetchers.constants import *
 from online.utils.dto import *
 
 

@@ -4,7 +4,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from flask import Flask, request
 import json
 import logging
-from data_exchange_center.constants import *
+from fetchers.constants import *
 from online.utils.dto import *
 from online.utils.redis_caller import RedisCaller
 from online.utils.es_caller import ESCaller

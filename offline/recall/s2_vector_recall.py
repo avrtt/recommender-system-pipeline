@@ -7,8 +7,8 @@ import pickle
 import torch
 import tqdm
 from sklearn.metrics import roc_auc_score
-from data_exchange_center.constants import *
-from data_exchange_center.paths import OFFLINE_IMP_PATH, USER_VECTOR_PATH, ITEM_VECTOR_PATH, RECALL_MODEL_PTH_PATH
+from fetchers.constants import *
+from fetchers.paths import OFFLINE_IMP_PATH, USER_VECTOR_PATH, ITEM_VECTOR_PATH, RECALL_MODEL_PTH_PATH
 
 
 def load_data():

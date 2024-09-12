@@ -4,9 +4,9 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 import pandas as pd
 import torch
 import pickle
-from data_exchange_center.constants import *
-from data_exchange_center.paths import FEAT_META_PATH, TRAIN_DATA_PATH, TEST_DATA_PATH, RANK_MODEL_PTH_PATH
-from data_exchange_center.parse_feat_meta import get_feature_def
+from fetchers.constants import *
+from fetchers.paths import FEAT_META_PATH, TRAIN_DATA_PATH, TEST_DATA_PATH, RANK_MODEL_PTH_PATH
+from fetchers.parse_feat_meta import get_feature_def
 from offline.torchfm.model import *
 from offline.torchfm.train import *
 

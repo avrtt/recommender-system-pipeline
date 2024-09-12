@@ -5,8 +5,8 @@ from elasticsearch import Elasticsearch
 from elasticsearch import helpers
 import pickle
 import time
-from data_exchange_center.constants import *
-from data_exchange_center.paths import ITEM_TERM_PATH, ITEM_VECTOR_PATH
+from fetchers.constants import *
+from fetchers.paths import ITEM_TERM_PATH, ITEM_VECTOR_PATH
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

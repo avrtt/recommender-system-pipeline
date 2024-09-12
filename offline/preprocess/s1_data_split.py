@@ -2,8 +2,8 @@ import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import pandas as pd
-from data_exchange_center.constants import *
-from data_exchange_center.paths import RAW_RATING_PATH, OFFLINE_IMP_PATH, ONLINE_IMP_PATH
+from fetchers.constants import *
+from fetchers.paths import RAW_RATING_PATH, OFFLINE_IMP_PATH, ONLINE_IMP_PATH
 
 
 def load_data():

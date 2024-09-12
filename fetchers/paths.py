@@ -1,6 +1,6 @@
-from data_exchange_center.constants import *
+from fetchers.constants import *
 
-DATA_CENTER_PATH = "../../data_exchange_center"
+DATA_CENTER_PATH = "../../fetchers"
 
 # ml-1m raw data
 RAW_USER_PATH = DATA_CENTER_PATH + "/offline/ml-1m/users.dat"
@@ -34,5 +34,4 @@ TRAIN_DATA_PATH = DATA_CENTER_PATH + "/offline/rank/train_data.csv"
 TEST_DATA_PATH = DATA_CENTER_PATH + "/offline/rank/test_data.csv"
 RANK_MODEL_PTH_PATH = DATA_CENTER_PATH + "/offline/rank/deepfm.pt"
 
-# online model for rank
-RANK_MODEL_TRITON_PATH = DATA_CENTER_PATH + "/online/triton/ml_rec/1/model/model.onnx"
+

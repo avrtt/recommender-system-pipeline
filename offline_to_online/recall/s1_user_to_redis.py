@@ -4,8 +4,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 from redis import Redis, ConnectionPool
 import pickle
 import tqdm
-from data_exchange_center.constants import *
-from data_exchange_center.paths import USER_FILTER_PATH, USER_TERM_PATH, USER_VECTOR_PATH
+from fetchers.constants import *
+from fetchers.paths import USER_FILTER_PATH, USER_TERM_PATH, USER_VECTOR_PATH
 
 
 def load_data():

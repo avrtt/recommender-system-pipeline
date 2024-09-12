@@ -3,8 +3,8 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 import torch
 import pickle
-from data_exchange_center.paths import FEAT_META_PATH, RANK_MODEL_PTH_PATH, RANK_MODEL_TRITON_PATH
-from data_exchange_center.parse_feat_meta import build_test_samples
+from fetchers.paths import FEAT_META_PATH, RANK_MODEL_PTH_PATH, RANK_MODEL_TRITON_PATH
+from fetchers.parse_feat_meta import build_test_samples
 
 
 def load_data():

@@ -4,8 +4,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 import copy
 import pandas as pd
 import pickle
-from data_exchange_center.constants import *
-from data_exchange_center.paths import RAW_ITEM_PATH, OFFLINE_IMP_PATH, USER_FILTER_PATH, IMP_TERM_PATH, USER_TERM_PATH, ITEM_TERM_PATH
+from fetchers.constants import *
+from fetchers.paths import RAW_ITEM_PATH, OFFLINE_IMP_PATH, USER_FILTER_PATH, IMP_TERM_PATH, USER_TERM_PATH, ITEM_TERM_PATH
 
 
 def load_data():

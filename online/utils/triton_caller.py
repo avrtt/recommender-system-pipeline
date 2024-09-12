@@ -2,8 +2,8 @@ import tritonclient.grpc as triton_client
 import numpy as np
 import logging
 import pickle
-from data_exchange_center.parse_feat_meta import get_feature_def
-from data_exchange_center.paths import FEAT_META_PATH
+from fetchers.parse_feat_meta import get_feature_def
+from fetchers.paths import FEAT_META_PATH
 from online.utils.dto import *
 from online.utils.feast_caller import FeastCaller
 

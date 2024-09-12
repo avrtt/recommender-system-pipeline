@@ -1,6 +1,6 @@
 from elasticsearch import Elasticsearch
 import logging
-from data_exchange_center.constants import *
+from fetchers.constants import *
 from online.utils.dto import *
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)

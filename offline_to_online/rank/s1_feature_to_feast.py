@@ -4,7 +4,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 import pandas as pd
 from datetime import datetime
 
-from data_exchange_center.paths import USER_ENTITY_PATH, ITEM_ENTITY_PATH, USER_ENTITY_FEAST_PATH, ITEM_ENTITY_FEAST_PATH
+from fetchers.paths import USER_ENTITY_PATH, ITEM_ENTITY_PATH, USER_ENTITY_FEAST_PATH, ITEM_ENTITY_FEAST_PATH
 
 user_entity = pd.read_csv(USER_ENTITY_PATH)
 item_entity = pd.read_csv(ITEM_ENTITY_PATH)

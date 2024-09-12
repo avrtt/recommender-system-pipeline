@@ -5,8 +5,8 @@ import torch
 import numpy as np
 import pickle
 import tritonclient.grpc as triton_client
-from data_exchange_center.parse_feat_meta import build_test_samples
-from data_exchange_center.paths import FEAT_META_PATH, RANK_MODEL_PTH_PATH
+from fetchers.parse_feat_meta import build_test_samples
+from fetchers.paths import FEAT_META_PATH, RANK_MODEL_PTH_PATH
 np.set_printoptions(precision=6)
 
 
