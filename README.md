@@ -1,4 +1,4 @@
-This repository demonstrates the implementation of a recommender system pipeline using PyTorch. The system covers the full pipeline from offline data processing and model training to online serving and prediction.
+This repository demonstrates an implementation of a recommender system pipeline using PyTorch. The system covers the full pipeline from offline data processing and model training to online serving and prediction.
 
 ## Dependencies & tools
 - **Conda** for offline data processing and model training with pandas and PyTorch
