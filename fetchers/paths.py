@@ -34,4 +34,5 @@ TRAIN_DATA_PATH = DATA_CENTER_PATH + "/offline/rank/train_data.csv"
 TEST_DATA_PATH = DATA_CENTER_PATH + "/offline/rank/test_data.csv"
 RANK_MODEL_PTH_PATH = DATA_CENTER_PATH + "/offline/rank/deepfm.pt"
 
-
+# online model for rank
+RANK_MODEL_TRITON_PATH = DATA_CENTER_PATH + "/online/triton/ml_rec/1/model/model.onnx"
