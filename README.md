@@ -17,7 +17,7 @@ This RS follows a three-phase development process:
 
 <br>
 
-## Offline
+## Offline part
 
 ### Conda environment setup
 Create a Conda environment for offline processing and model training:
@@ -59,7 +59,7 @@ python s2_model_train.py
 
 <br>
 
-## Offline-to-Online
+## Offline-to-online part
 
 ### Docker setup
 Ensure Docker is installed and pull necessary images:
@@ -115,7 +115,7 @@ python s3_check_offline_and_online.py
 
 <br>
 
-## Online
+## Online part
 
 ### Flask web server
 Start the Flask web server for handling recommendation requests:
