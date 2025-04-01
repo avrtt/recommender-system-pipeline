@@ -1,5 +1,7 @@
 This repository demonstrates an implementation of a recommender system pipeline using PyTorch. The system covers the full pipeline from offline data processing and model training to online serving and prediction.
 
+The pipeline was made as part of my freelance project for demonstation purposes. 
+
 ## Dependencies & tools
 - **Conda** for offline data processing and model training with pandas and PyTorch
 - **Docker** to run Redis, Elasticsearch, Feast, and Triton without affecting the local environment
